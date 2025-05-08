@@ -9,8 +9,12 @@ Exercises:
 5. Use letters instead of tiles.
 """
 
-from random import *
-from turtle import *
+from random import shuffle
+from turtle import (
+    up, down, goto, color, begin_fill, forward, left, end_fill,
+    clear, shape, stamp, write, update, ontimer, setup, addshape,
+    hideturtle, tracer, onscreenclick, done
+)
 
 from freegames import path
 
